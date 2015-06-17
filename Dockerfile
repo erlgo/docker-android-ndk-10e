@@ -1,7 +1,7 @@
 FROM ubuntu:15.04
 MAINTAINER Geoff Taylor <hub.docker.com@opinionatedgeek.com>
 RUN apt-get update && apt-get -yq upgrade
-RUN apt-get -yq install wget xutils-dev make automake vim
+RUN apt-get -yq install wget xutils-dev make automake vim git
 
 ENV ANDROID_NDK_VERSION android-ndk-r10e
 ENV ANDROID_API_VERSION android-21
